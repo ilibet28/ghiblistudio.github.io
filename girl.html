@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Whisper of the heart</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+body {
+      margin: 0;
+      padding: 0;
+      background-image: url(girl.jpg); /* Замените на путь к вашему изображению */
+      background-size: cover; /* Растягиваем изображение на весь экран */
+      background-position: center center; /* Центрируем изображение */
+      background-attachment: fixed; /* Закрепляем изображение на месте при прокрутке */
+      height: 100vh; /* Устанавливаем минимальную высоту для body */
+    }
+    .video-container {
+    display: flex; /* Используем flexbox для центрирования */
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали */
+    height: 100vh; /* Высота на весь экран */
+  }
+
+  .video-container iframe {
+    width: 80%; /* Устанавливаем ширину видео */
+    max-width: 800px; /* Ограничиваем максимальную ширину */
+    height: 50%; /* Высота видео */
+    object-fit: cover; /* Обеспечивает правильное масштабирование */
+  }
+
+  .back-to-home {
+      position: fixed; /* Фиксируем кнопку на экране */
+      top: 20px; /* Отступ сверху */
+      left: 20px; /* Отступ слева */
+      z-index: 1000; /* Для того чтобы кнопка всегда была поверх других элементов */
+      background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+      color: white; /* Белый цвет текста */
+      border: none; /* Убираем рамку */
+      padding: 10px 20px; /* Отступы внутри кнопки */
+      font-size: 16px; /* Размер текста */
+      border-radius: 5px; /* Закругленные углы */
+    }
+
+    /* При наведении меняем фон кнопки */
+    .back-to-home:hover {
+      background-color: rgba(0, 0, 0, 0.7); /* Меняется прозрачность при наведении */
+    }
+
+</style>
+
+
+<body>
+
+
+    <div class="video-container">
+        <iframe 
+          src="https://www.youtube.com/embed/kyix1XapomE" 
+          frameborder="0" 
+          allow="autoplay; encrypted-media; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </div>
+      
+
+
+      <ul class="nav justify-content-center" style="background-color: rgba(0, 0, 0, 0.5); padding: 20px; ;">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="#watch">Where to watch</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#movie">About movie</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#xxx">Oma mielipide</a> <!-- Добавь текст и название кнопки-->
+        </li>
+       
+      </ul>
+
+
+      <div class="text-center mt-5" style="background-color: rgba(0, 0, 0, 0.5); padding: 20px;">
+        <h1 class="text-white">Whisper of the heart</h1>
+        <p class="text-white">1995</p> 
+        <br>
+        <br>
+        <h2 id="movie" class="text-white">About movie</h2>
+        <h4 style="color: white;">Sydämen kuiskaus on Studio Ghiblin animaatioelokuva, jonka ohjasi 
+          Yoshifumi Kondō Hayao Miyazakin käsikirjoituksen pohjalta. Elokuva 
+          ulkaistiin vuonna 1995. Tarina seuraa tyttöä nimeltä Shizuku, joka 
+          haaveilee kirjailijan urasta. Erään sattuman kautta kirjastossa hän
+           tutustuu poikaan nimeltä Seiji, joka haluaa ryhtyä viulunrakentajaksi.
+            Heidän välilleen syntyy syvä yhteys, 
+          jota kantavat inspiraatio, itsensä etsiminen ja nuoruuden aitous.</h4>
+        <br>
+        <br>
+        <h2 id="watch"class="text-white">Where to watch</h2>
+        <h5 style="color: blue;"><a href="https://9animetv.to/watch/whisper-of-the-heart-259?ep=57915">Whisper of the heart</a></h5>
+        <br>
+        <br>
+        <h2 class="text-white" id="xxx">Oma melipide</h2> 
+        <h4 style="color: white;">Minulle tämä elokuva on hiljainen ja koskettava
+           kertomus kasvusta, itsensä löytämisestä ja ensimmäisistä aidoista 
+           tunteista. Toisin kuin monissa muissa Ghiblin elokuvissa, tässä ei ole
+            taikuutta tai fantasiaa — mutta se sisältää jotain vieläkin 
+            taianomaisempaa: elävän sielun. Se kertoo siitä, miten tärkeää
+             on seurata sydäntään, uskaltaa unelmoida ja tehdä töitä omien 
+             tavoitteidensa eteen. Tämä on tunnelmaelokuva — valoisa ja 
+             rehellinen — joka
+           jättää jälkeensä toivon tunteen.</h4>
+    </div>
+    
+    <a href="index.html" class="btn btn-primary back-to-home">Back home</a>
+     
+    <footer class="text-white text-center py-1" style="background-color: rgba(0, 0, 0, 0.6);">
+        <div class="container">
+            <p>&copy;Studio Ghibli. All rights reserved.</p>
+        </div>
+
+
+
+    
+</body>
+
+</html>
